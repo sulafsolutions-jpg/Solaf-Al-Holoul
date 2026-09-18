@@ -3,7 +3,7 @@ name: Deploy Vite to GitHub Pages
 on:
   push:
     branches:
-      - Injaz_team_work
+      - SolafAlHoloul
 
 permissions:
   contents: read
