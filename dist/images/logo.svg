@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-label="Sulaf Solutions — سلاف الحلول">
+  <defs>
+    <linearGradient id="sulafGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9C46A"/>
+      <stop offset="0.45" stop-color="#C9962E"/>
+      <stop offset="0.75" stop-color="#E4B33C"/>
+      <stop offset="1" stop-color="#A97B1F"/>
+    </linearGradient>
+  </defs>
+  <!-- Top S (gold) -->
+  <path fill="url(#sulafGold)" d="M400 28 H250 c-62 0 -104 38 -104 88 0 52 42 84 96 84 h84 c-16 14 -38 22 -62 22 H232 c-38 0 -62 -18 -62 -44 0 -28 26 -46 62 -46 h150 c30 0 52 -10 66 -30 12 -17 22 -44 24 -74H400Z"/>
+  <!-- Bottom S (navy) -->
+  <path fill="#0E1C33" d="M240 342 H390 c62 0 104 -38 104 -88 0 -52 -42 -84 -96 -84 h-84 c16 -14 38 -22 62 -22 h32 c38 0 62 18 62 44 0 28 -26 46 -62 46 H258 c-30 0 -52 10 -66 30 -12 17 -22 44 -24 74H240Z"/>
+  <!-- Gold check slash -->
+  <path fill="url(#sulafGold)" d="M148 208 L268 316 L560 38 L288 272 Z"/>
+  <path fill="#8A6414" opacity="0.55" d="M148 208 L268 316 L276 308 L160 200 Z"/>
+  <!-- Arabic wordmark -->
+  <text x="320" y="396" text-anchor="middle" font-family="Cairo, Tajawal, Arial" font-weight="700" font-size="44" fill="#B98A22">سلاف الحلول</text>
+  <!-- English wordmark -->
+  <text x="320" y="432" text-anchor="middle" font-family="Inter, Arial" font-weight="600" font-size="21" letter-spacing="8" fill="#0E1C33">SULAF SOLUTIONS</text>
+</svg>
