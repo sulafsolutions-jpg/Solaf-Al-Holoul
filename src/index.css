@@ -796,6 +796,41 @@ main {
   color: #3d2d04;
 }
 
+.contact-list {
+  align-items: stretch;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  line-height: 1.7;
+  text-align: start;
+}
+
+.contact-item a {
+  unicode-bidi: embed;
+}
+
+.contact-item a:hover {
+  color: #241a02;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(36, 26, 2, 0.35);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #241a02;
+}
+
 .socials {
   display: flex;
   gap: 10px;
