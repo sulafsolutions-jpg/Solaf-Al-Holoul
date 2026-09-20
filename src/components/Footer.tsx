@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="foot-top">
           <div className="foot-brand">
             <div className="foot-logo">
-              <Logo language={language} height={52} />
+              <Logo language={language} height={82} />
             </div>
             <div className="foot-brand-name">{t.brandName}</div>
             <p>{t.description}</p>

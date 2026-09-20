@@ -838,12 +838,15 @@ main {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .faces {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .foot-top {
     grid-template-columns: 1fr 1fr;
   }
+
   .foot-links {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -853,40 +856,50 @@ main {
   .links {
     display: none;
   }
+
   .burger {
     display: inline-flex;
     align-items: center;
     justify-content: center;
   }
+
   .hero-grid,
   .about-grid,
   .init-grid {
     grid-template-columns: 1fr;
   }
+
   .hero-media {
     min-height: 300px;
     order: -1;
   }
+
   .hero-media img {
     position: relative;
     height: 300px;
   }
+
   [dir='ltr'] .hero-fade,
   [dir='rtl'] .hero-fade {
     background: linear-gradient(to top, #fff 2%, transparent 45%);
   }
+
   .cert {
     inset-inline-end: 12px;
   }
+
   .panel {
     grid-template-columns: 1fr;
   }
+
   .panel-visual {
     justify-content: flex-start;
   }
+
   .cta-card {
     grid-template-columns: 1fr;
   }
+
   .cta-action {
     justify-content: flex-start;
   }
@@ -896,13 +909,16 @@ main {
   .cards {
     grid-template-columns: 1fr;
   }
+
   .card h3 {
     min-height: 0;
   }
+
   .faces {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
   }
+
   .foot-links {
     grid-template-columns: 1fr 1fr;
   }

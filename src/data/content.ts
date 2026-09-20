@@ -12,9 +12,9 @@ export type Language = 'ar' | 'en';
 
 export const LOGO = {
   /** Primary logo file (user-provided). Drop the file with this exact name. */
-  primaryPng: './images/الشعار الاساسي.png',
+  primaryPng: './images/logo1.png',
   /** Fallback logo (vector recreation of the gold/navy Sulaf mark). */
-  fallbackSvg: './images/logo.svg',
+  fallbackSvg: './images/logo1.svg',
   alt: {
     ar: 'سلاف الحلول — Solaf Al-Holoul',
     en: 'Solaf Al-Holoul — سلاف الحلول',

@@ -24,7 +24,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="wrap nav-inner">
         <button className="brand" onClick={() => go('home')} aria-label="Sulaf Solutions">
-          <Logo language={language} height={46} />
+          <Logo language={language} height={66} />
         </button>
 
         <nav className="links" aria-label="Primary">
