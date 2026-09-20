@@ -744,7 +744,7 @@ main {
 .footer {
   background: linear-gradient(180deg, #dfae1e, #d9a419);
   color: #241a02;
-  padding: 56px 0 0;
+  padding: 30px 0 0;
 }
 
 .foot-top {
@@ -753,13 +753,6 @@ main {
   gap: 28px;
   padding-bottom: 36px;
   border-bottom: 1px solid rgba(36, 26, 2, 0.2);
-}
-
-.foot-logo {
-  /* background: rgba(255, 255, 255, 0.92); */
-  display: inline-flex;
-  padding: 6px 14px;
-  border-radius: 12px;
 }
 
 .foot-brand-name {
