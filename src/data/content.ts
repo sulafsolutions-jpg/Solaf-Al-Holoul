@@ -15,6 +15,8 @@ export const LOGO = {
   primaryPng: './images/logo1.png',
   /** Fallback logo (vector recreation of the gold/navy Sulaf mark). */
   fallbackSvg: './images/logo1.svg',
+  /** Footer logo (logo2). */
+  footerSvg: './images/logo2.svg',
   alt: {
     ar: 'سلاف الحلول — Solaf Al-Holoul',
     en: 'Solaf Al-Holoul — سلاف الحلول',

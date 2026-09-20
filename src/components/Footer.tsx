@@ -1,5 +1,5 @@
 import { useLanguage } from '../context/LanguageContext';
-import { content } from '../data/content';
+import { content, LOGO } from '../data/content';
 import Logo from './Logo';
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="foot-top">
           <div className="foot-brand">
             <div className="foot-logo">
-              <Logo language={language} height={82} />
+              <Logo language={language} height={82} src={LOGO.footerSvg} />
             </div>
             <div className="foot-brand-name">{t.brandName}</div>
             <p>{t.description}</p>

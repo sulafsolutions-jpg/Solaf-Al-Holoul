@@ -8,19 +8,26 @@ import { LOGO, type Language } from '../data/content';
 export default function Logo({
   language,
   height = 44,
+  src,
 }: {
   language: Language;
   height?: number;
+  src?: string;
 }) {
   const [failed, setFailed] = useState(false);
-  const src = failed ? LOGO.fallbackSvg : LOGO.primaryPng;
+  // If an explicit src is given (e.g. footer logo2), use it directly
+  // without falling back to logo1. Otherwise prefer primaryPng with fallback.
+  const defaultSrc = failed ? LOGO.fallbackSvg : LOGO.primaryPng;
+  const resolvedSrc = src ?? defaultSrc;
   return (
     <img
-      src={src}
+      src={resolvedSrc}
       alt={LOGO.alt[language]}
       height={height}
       style={{ height, width: 'auto', objectFit: 'contain' }}
-      onError={() => setFailed(true)}
+      onError={() => {
+        if (!src) setFailed(true);
+      }}
     />
   );
 }
